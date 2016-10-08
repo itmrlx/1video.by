@@ -1,0 +1,99 @@
+// sources
+@import 'src/_fonts.scss'; // fonts
+@import 'src/_wordpress.scss'; // wp classes
+@import 'src/_bootstrap.scss'; // bootstrap
+@import 'src/_jquery.fancybox.scss'; // fancybox
+@import 'src/_slick.scss'; // slick slider
+
+// utilites
+.wrapper{
+	width: 100%;
+	max-width: 1920px;
+	margin: 0 auto;
+	min-width: 320px;
+}
+.container{
+	min-width: 320px;
+}
+.webber{
+	margin-bottom: 0;
+	text-align: center;
+	padding: 15px 0;
+	a{
+		color: #000;
+	}
+	img{
+		width: 25px;
+		height: 25px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+}
+
+// global
+*{outline: none !important;}
+
+// other
+.y-circle{
+	position: relative;
+	&:before{
+		content: '';
+		position: absolute;
+		width: 70px;
+		height: 70px;
+		background-color: $brand-primary;
+		border-radius: 50%;
+		top: 50%;
+		left: 50%;
+		margin-top: -35px;
+		margin-left: -35px;
+		transition: all .3s;
+	}
+}
+.title-yellow{
+	text-align: center;
+	>span{
+		position: relative;
+		display: inline-block;
+		span{
+			color: #000;
+			font-size: 42px;
+			font-weight: 700;
+			line-height: 19px;
+			position: relative;
+			z-index: 2;
+			@media (max-width: 767px) {
+				font-size: 27px;
+			}
+		}
+		&:before{
+			content: '';
+			position: absolute;
+			left: 0;
+			bottom: 0;
+			width: 70%;
+			height: 12px;
+			z-index: 1;
+			background-color: $brand-primary;
+		}
+	}
+}
+
+// buttons
+.btn{
+	transition: all .3s;
+}
+.btn-primary{
+	border-radius: 0;
+	border: none;
+	color: #000;
+	font-size: 16px;
+	&:hover{
+		color: #000;
+	}
+}
+.form-sended{
+	text-align: center;
+	font-size: 23px;
+	margin: 15px 0;
+}
