@@ -12,7 +12,7 @@ template name: Контакты
 				<img src="<?php bloginfo('template_url'); ?>/img/envelope.svg" alt="email">
 			</div>
 			<div class="text2">
-				<a href="mailto:info@mail.ru">info@mail.ru</a>
+				<a href="mailto:be.roo@mail.ru">be.roo@mail.ru</a>
 			</div>
 		</div>
 	</div>
@@ -22,8 +22,7 @@ template name: Контакты
 				<img src="<?php bloginfo('template_url'); ?>/img/phone-call.svg" alt="телефоны">
 			</div>
 			<div class="text2">
-				<a href="tel:8(029) 536-95-59">8(029) 536-95-59</a><br>
-				<a href="tel:8(029) 536-95-59">8(029) 536-95-59</a>
+				<a href="tel:+375297333894">+375 29 7333984</a>
 			</div>
 		</div>
 	</div>
@@ -33,7 +32,7 @@ template name: Контакты
 				<img src="<?php bloginfo('template_url'); ?>/img/settings.svg" alt="скайп">
 			</div>
 			<div class="text2">
-				<a href="skype:skypename?chat">skypename</a>
+				<a href="skype:ivan_pilnikov?chat">ivan_pilnikov</a>
 			</div>
 		</div>
 	</div>
@@ -43,8 +42,7 @@ template name: Контакты
 				<img src="<?php bloginfo('template_url'); ?>/img/placeholder.svg" alt="адрес">
 			</div>
 			<div class="text2">
-				<p>Москва, Восточный,<br>
-					ул. Сталеваров д. 45А</p>
+				<p>г.Минск, ул. Одоевского 115а, офис 225</p>
 				</div>
 			</div>
 		</div>
